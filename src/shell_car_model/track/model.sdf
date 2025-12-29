@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="track">
+    <static>true</static>
+    <link name="track">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://shell_car_model/track/meshes/track.stl</uri>
+          </mesh>
+           <surface>
+            <friction>
+              <ode>
+                <mu>0.7</mu>
+                <mu2>0.7</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://shell_car_model/track/meshes/track.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
