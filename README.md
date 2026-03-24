@@ -1,6 +1,6 @@
 # perception-SubSystem
 
---> open the screenshot photo to understand the system flow
+--> open the camera-FlowChart.png to understand the system flow
 
 **Perception Pipeline**
 /// camera pipeline ////
