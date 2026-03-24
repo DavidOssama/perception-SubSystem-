@@ -1,5 +1,6 @@
 # perception-SubSystem
 
+--> open the screenshot photo to understand the system flow
 
 **Perception Pipeline**
 /// camera pipeline ////
